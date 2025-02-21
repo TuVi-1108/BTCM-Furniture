@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+header{width:100%;height:50px;background-color:white}
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:70px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: white
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#830002;
+      text-decoration: none; }
+main{width:100%;min-height:500px}
+.gach-chan{border-bottom:3px solid #830002}
+.vien{width:100%;min-height:200px;border:1px solid red;padding:10px;position:relative;overflow: hidden}
+.vien:hover .icon{top:40%}
+.icon{position:absolute;width:80%;height:45px;display:flex;justify-content:space-around;left:10%;top:-15%;transition:all 1s}
+.icon a{height:45px;width:45px;background-color:darkred;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none}
+.icon a:hover{background-color:#C0C0C0;color:darkred}
+.text-do{color:#830002}
+
+#feature{width:100%;min-height:700px;background-image:url( "../images/bg2.png");background-repeat:no-repeat;background-size:cover;background-position:center bottom}
+.pt-30{padding-top:30px}
+.vien-trang{width:100%;min-height:120px;border:1px solid white;text-align:center}
+#feature a{text-decoration:none;color:darkred;cursor:pointer}
+#feature a:hover{color:#2F40FF}
+.do-dam{color:darkred}
+
+#contact{width:100%;min-height:500px;background-image:url(  "../images/Banner2.png");background-repeat:no-repeat;background-size:cover;background-position:center bottom}
+.logo-size{width:90px;height:30px;padding:7px;margin:10px}
+
+.menu ul{margin:0;padding:0;list-style:none;display:flex}
+.menu {padding-top:4px}
+.menu ul li a{padding:10px 20px;text-decoration:none;color:#6B6B6B;font-weight:700;font-size:17px;display:block}
+.menu ul li a:hover{background-color:#D9A4A5;color:sienna}
+.banner{position:relative;width:100%;min-height:500px;left:0px;top:0px}
+
+.menu ul li{position:relative}
+.menu .drop-down{position:absolute;left:0;top:100%;flex-direction:column;width:220px;background-color:#E5E4E4;display:none;z-index:50}
+.menu ul li:hover .drop-down{display:block}
+.menu .dropdown li{border-bottom:1px dotted white}
+
+.mr-10{margin-right:10px}
+.icon1size{width:15px;height:30px;padding-top:15px}
+.form-control{padding:8px; width: 100%;margin-bottom:10px}
+.shadow{width:100%;min-height:350px;border:1px solid gray;box-shadow:5px 5px 5px gray;padding:20px;border-raius:5px}
+
+
+
